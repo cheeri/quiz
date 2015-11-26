@@ -1,6 +1,6 @@
-/*div {*/
-    /*border: 1px solid Chocolate;*/
-/*}*/
+/*div {
+    border: 1px solid Chocolate;
+}*/
 
 .coverpage {
   background-image: url("../images/testcricket1.jpg");
@@ -16,28 +16,27 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 0em;
-    margin-bottom: 10em;
+    
     position:relative;
     padding-bottom: 2em;
+    background-color:rgba(255,255,255, 0.3);
     
 }
 
-.overlay {
-	position:absolute;
-    top:0;
-    left:0;
-    height:100%;
-    width:100%;
-    background-color:rgba(255,255,255, 0.3);
-    z-index:9999;
-    
-}
+
 
 h2{
 	text-align: center;
 	font-family:'Ropa Sans', bold;
 	color:greenyellow;
 	
+}
+
+h3{
+  text-align: center;
+  font-family:'Ropa Sans', bold;
+  color:greenyellow;
+  
 }
 
 .answers{
@@ -66,5 +65,9 @@ li{
 	background-color: black;
 	margin-top: 2em;
 	
+}
+
+.last_question{
+
 }
 
